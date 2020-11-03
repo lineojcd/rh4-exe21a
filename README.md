@@ -1,5 +1,5 @@
 # rh4-exe21a
-Duckie town 2020 RH4 exe 21a
+Duckietown 2020 RH4 exe 21a
 
 Instructions to reproduce results
 
