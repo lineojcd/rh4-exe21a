@@ -15,12 +15,7 @@ dts devel build -f --arch arm32v7 -H MY_ROBOT.local
 
 ### 3. Run docker image in Duckiebot with the following options
 ```bash
-docker -H MY_ROBOT.local run -it --privileged --rm --net=host duckietown/rh4-exe21a:latest-arm32v7 /bin/bash
-```
-
-### 4. After going inside the docker shell, run the python script using the command below
-```bash
-python3 packages/my_package/src/my_node.py
+docker -H MY_ROBOT.local run -it --privileged --rm --net=host duckietown/rh4-exe21a:latest-arm32v7 
 ```
 
 Now, the image stream is publishing.
